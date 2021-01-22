@@ -16,7 +16,7 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#58c5c7",
+    "navigationBarBackgroundColor": "#eb4450",
     "navigationBarTitleText": "Singo优购",
     "navigationBarTextStyle": "white"
   },
@@ -51,6 +51,6 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
 }
