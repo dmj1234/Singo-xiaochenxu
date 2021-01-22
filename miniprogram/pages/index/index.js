@@ -1,17 +1,30 @@
 import { request } from "../../request/index.js";
+import regeneratorRuntime from "../../lib/runtime/runtime.js";
 Page({
   data: {
     swiperList: [],
+    catesList: [],
+    floorList: []
   },
   onLoad(options) {
-    wx.request({
-      url: 'https://api-hmugo-web.itheima.net/api/public/v1/home/swiperdata',
-      success:(result) =>{
-        this.setData({
-          swiperList:result.data.message
-        })
-      }
-    })
+    this.getSwiperList();
+    this.getCatesList();
+    this.getFloorList();
   },
-  
+  async getSwiperList() {
+    const result = await request({url: '/home/swiperdata'});
+    this.setData({
+      swiperList: result
+    })
+  }, async getCatesList() {
+    const result = await request({url: '/home/catitems'});
+    this.setData({
+      catesList: result
+    })
+  }, async getFloorList() {
+    const result = await request({url: '/home/floordata'});
+    this.setData({
+      floorList: result
+    })
+  }
 })
