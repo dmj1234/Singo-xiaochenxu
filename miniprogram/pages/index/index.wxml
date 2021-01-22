@@ -1,52 +1,59 @@
-<view class="pyg_index">
-    <SearchInput>
-    </SearchInput>
-     <!-- 轮播图开始 -->
-    <view class="index_swiper">
-        <swiper autoplay="true" indicator-dots="true" circular="true">
-            <swiper-item wx:for="{{swiperList}}"
-            wx:key="goods_id">
-                <navigator>
-                    <image src="{{item.image_src}}">
-                    </image>
-                </navigator>
-            </swiper-item>
-        </swiper>
-    </view>
-     <!-- 轮播图结束 -->
+<!--index.wxml-->
+<view class="container">
 
-     <!-- 导航开始 -->
-    <view class="index_cate">
-     <navigator wx:for="{{catesList}}"
-     wx:key="name">
-<image mode="widthFix" src="{{item.image_src}}"></image>
-     </navigator>
-    </view>
-    <!-- 导航结束 -->
-
-    <!-- 楼层开始 -->
-    <view class="index_floor">
-    <view class="floor_group" 
-    wx:for="{{floorList}}" 
-    wx:for-item="item1" 
-    wx:for-index="index1"
-    wx:key="floor_title">
-    <!-- 标题   -->
-    <view class="floor_title">
-    <image src="{{item1.floor_title.image_src}}" mode="widthFix"></image>
-    </view>
-    <view class="floor_list">
-        <navigator 
-        wx:for="{{item1.product_list}}"
-        wx:for-item="item2"
-        wx:for-index="index2"
-        wx:key="name"
-
-        >
-        <image mode="{{index2===0?'widthFix':'scaleToFill'}}" src="{{item2.image_src}}"></image>
-      </navigator>
-      </view>
+  <!-- 用户 openid -->
+  <view class="userinfo">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+      size="default"
+    ></button>
+    <view class="userinfo-nickname-wrapper">
+      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
     </view>
   </view>
-    <!-- 楼层结束 -->
+
+
+  <!-- 上传图片 -->
+  <view class="uploader">
+    <view class="uploader-text" bindtap="doUpload">
+      <text>上传图片</text>
+    </view>
+    <view class="uploader-container" wx:if="{{imgUrl}}">
+      <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
+    </view>
+  </view>
+
+
+  <!-- 操作数据库 -->
+  <view class="uploader">
+    <navigator url="../databaseGuide/databaseGuide" open-type="navigate" class="uploader-text">
+      <text>前端操作数据库</text>
+    </navigator>
+  </view>
+
+  <!-- 即时通信 -->
+  <view class="uploader">
+    <navigator url="../im/im" open-type="navigate" class="uploader-text">
+      <text>即时通信 Demo</text>
+    </navigator>
+  </view>
+
+  <!-- 新建云函数 -->
+  <view class="uploader">
+    <navigator url="../addFunction/addFunction" open-type="navigate" class="uploader-text">
+      <text>快速新建云函数</text>
+    </navigator>
+  </view>
+
+  <!-- 云调用 -->
+  <view class="uploader">
+    <navigator url="../openapi/openapi" open-type="navigate" class="uploader-text">
+      <text>云调用</text>
+    </navigator>
+  </view>
+
+
 </view>
