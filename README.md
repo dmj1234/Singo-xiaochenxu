@@ -48,31 +48,31 @@
 <img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/index.jpg" width="375" />
 
 ### 分类页
-<img src="https://github.com/dmj1234/Singo-xiaochenxu/tree/main/yougou-img/category.jpg" width="375" />
+<img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/category.jpg" width="375" />
 
 ### 商品列表页
-<img src="https://github.com/dmj1234/Singo-xiaochenxu/tree/main/yougou-img/goods_list.jpg" width="375" />
+<img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/goods_list.jpg" width="375" />
 
 ### 商品详情页
-<img src="https://github.com/dmj1234/Singo-xiaochenxu/tree/main/yougou-img/goods_detail.jpg" width="375" />
+<img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/goods_detail.jpg" width="375" />
 
 ### 购物车页
-<img src="https://github.com/dmj1234/Singo-xiaochenxu/tree/main/yougou-img/cart.jpg" width="375" />
+<img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/cart.jpg" width="375" />
 
 ### 结算页
-<img src="https://github.com/dmj1234/Singo-xiaochenxu/tree/main/yougou-img/pay.jpg" width="375" />
+<img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/pay.jpg" width="375" />
 
 ### 个人中心页
-<img src="https://github.com/dmj1234/Singo-xiaochenxu/tree/main/yougou-img/user.jpg" width="375" />
+<img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/user.jpg" width="375" />
 
 ### 收藏页
-<img src="https://github.com/dmj1234/Singo-xiaochenxu/tree/main/yougou-img/collect.jpg" width="375" />
+<img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/collect.jpg" width="375" />
 
 ### 订单页
-<img src="https://github.com/dmj1234/Singo-xiaochenxu/tree/main/yougou-img/order.jpg" width="375" />
+<img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/order.jpg" width="375" />
 
 ### 订单详情页
-<img src="https://github.com/dmj1234/Singo-xiaochenxu/tree/main/yougou-img/order_detail.jpg" width="375" />
+<img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/order_detail.jpg" width="375" />
 
 ### 意见反馈页
-<img src="https://github.com/dmj1234/Singo-xiaochenxu/tree/main/yougou-img/feedback.jpg" width="375" />
+<img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/feedback.jpg" width="375" />
