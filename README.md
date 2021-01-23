@@ -62,9 +62,6 @@
 ### 结算页
 <img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/pay.jpg" width="375" />
 
-### 个人中心页
-<img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/user.jpg" width="375" />
-
 ### 收藏页
 <img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/collect.jpg" width="375" />
 
