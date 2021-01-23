@@ -45,7 +45,7 @@
 
 ## 部分页面展示
 ### 首页
-<img src="https://github.com/dmj1234/Singo-xiaochenxu/tree/main/yougou-img/index.jpg" width="375" />
+<img src="https://github.com/dmj1234/Singo-xiaochenxu/blob/main/yougou-img/index.jpg" width="375" />
 
 ### 分类页
 <img src="https://github.com/dmj1234/Singo-xiaochenxu/tree/main/yougou-img/category.jpg" width="375" />
