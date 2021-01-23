@@ -1,9 +1,7 @@
-/* 全局checkbox大小 */
 checkbox .wx-checkbox-input {
   width: 30rpx;
   height: 30rpx;
 }
-/* 收货地址 */
 .revice_address_row{
   border-bottom: 10rpx solid #eee;
 }
@@ -25,7 +23,6 @@ checkbox .wx-checkbox-input {
   flex: 2;
 }
 
-/* 购物车内容 */
 .cart_title{
   font-size: 34rpx;
   font-weight: bold;
@@ -87,7 +84,6 @@ checkbox .wx-checkbox-input {
   border: none;
 }
 
-/* 底部工具栏 */
 .footer_tool{
   width: 100vw;
   height: 90rpx;
